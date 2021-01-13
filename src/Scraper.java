@@ -111,6 +111,7 @@ public class Scraper {
 	    } catch (IOException e) {
 	        e.printStackTrace();
 	    }
+	    //Pongo esto a null para que se borre la info 
 	    rowBuilder = null;
 	}
 }
